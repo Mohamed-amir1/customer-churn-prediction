@@ -77,11 +77,11 @@ The model performs better at identifying churned customers due to relatively hig
 
 - Churn Distribution
 
-  <img width="616" height="446" alt="image" src="https://github.com/user-attachments/assets/e0993c0f-20ad-49ed-be33-b4a7dd269e20" />
+<img width="616" height="446" alt="image" src="https://github.com/user-attachments/assets/e0993c0f-20ad-49ed-be33-b4a7dd269e20" />
   
 - Feature Importance Analysis
 
-  <img width="795" height="466" alt="image" src="https://github.com/user-attachments/assets/820a8f66-ca8e-41b8-a9a6-c58e27b707be" />
+<img width="795" height="466" alt="image" src="https://github.com/user-attachments/assets/820a8f66-ca8e-41b8-a9a6-c58e27b707be" />
 
 ---
 
