@@ -103,14 +103,7 @@ The model performs better at identifying churned customers due to relatively hig
 2. Open the Customer_Churn in Jupyter or Google Colab
 3. Run all cells
 
----
 
-## Project Structure
-Customer-Churn/
-├── Customer-Churn.csv
-├── Customer_Churn.ipynb
-├── README.md
-└── Requirements.txt
 
 ---
 
