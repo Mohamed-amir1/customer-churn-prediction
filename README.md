@@ -84,15 +84,17 @@ The model performs well in identifying customers at risk of churn, achieving a r
 
 ### Confusion Matrix
 
-<img src="YOUR_CONFUSION_MATRIX_IMAGE_LINK">
+<img width="577" height="392" alt="image" src="https://github.com/user-attachments/assets/5080efad-f9db-40cb-97cf-90e870d130c8" />
 
 ### Churn Distribution
 
-<img src="YOUR_CHURN_DISTRIBUTION_IMAGE_LINK">
+<img width="616" height="446" alt="image" src="https://github.com/user-attachments/assets/e0993c0f-20ad-49ed-be33-b4a7dd269e20" />
+
 
 ### Top 10 Important Features
 
-<img src="YOUR_FEATURE_IMPORTANCE_IMAGE_LINK">
+<img width="795" height="466" alt="image" src="https://github.com/user-attachments/assets/820a8f66-ca8e-41b8-a9a6-c58e27b707be" />
+
 
 ---
 
@@ -117,21 +119,11 @@ The model performs well in identifying customers at risk of churn, achieving a r
 
 ---
 
-## 📦 Requirements
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
----
 
 ## 🚀 How to Run
 
 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/customer-churn-prediction.git
-```
 
 2. Open the notebook in Jupyter Notebook or Google Colab
 
@@ -142,10 +134,10 @@ git clone https://github.com/yourusername/customer-churn-prediction.git
 ## 📁 Project Structure
 
 ```
-Customer-Churn-Prediction/
+Customer-Churn/
 │
 ├── Customer-Churn.csv
-├── Customer_Churn_Prediction.ipynb
+├── Customer_Churn.ipynb
 ├── README.md
 └── Requirements.txt
 ```
