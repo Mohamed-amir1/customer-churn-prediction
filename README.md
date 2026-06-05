@@ -3,7 +3,7 @@
 ## Project Overview
 Customer churn is one of the most important business problems in subscription-based companies. This project uses machine learning to predict whether a customer is likely to leave the company based on demographic information, services used, and account details.
 
-The goal is to help businesses identify at-risk customers and improve retention strategies.
+The goal is to help businesses identify at-risk customers and improve customer retention strategies.
 
 ---
 
@@ -37,59 +37,76 @@ The dataset contains customer information such as:
 ---
 
 ## Data Preprocessing
-- Handling missing values
+- Handling missing values in TotalCharges
 - Converting TotalCharges to numeric format
 - Encoding categorical variables
-- Removing unnecessary columns
+- Removing unnecessary columns (customerID)
 - Train-test split
 
 ---
 
-## Model Used
-Random Forest Classifier:
+## Models Used
+
+### 1. Random Forest Classifier
 - 500 trees
 - Max depth = 10
 - Balanced class weights
 - Random state = 42
 
+### 2. XGBoost Classifier
+- n_estimators = 280
+- max_depth = 4
+- learning rate = 0.05
+- scale_pos_weight for class imbalance
+
 ---
 
 ## Model Performance
 
-### Accuracy
-79%
-
-### Classification Report
+### Random Forest
+Accuracy: 78.5%
 
 | Class | Precision | Recall | F1-Score |
 |------|-----------|--------|----------|
-| No Churn (0) | 0.91 | 0.80 | 0.85 |
-| Churn (1) | 0.58 | 0.78 | 0.66 |
+| No Churn (0) | 0.91 | 0.79 | 0.84 |
+| Churn (1) | 0.57 | 0.78 | 0.66 |
 
-The model performs better at identifying churned customers due to relatively high recall for class 1.
+---
+
+### XGBoost
+Accuracy: 76.7%
+
+| Class | Precision | Recall | F1-Score |
+|------|-----------|--------|----------|
+| No Churn (0) | 0.91 | 0.76 | 0.83 |
+| Churn (1) | 0.54 | 0.80 | 0.65 |
+
+---
+
+## Final Model Selection
+Although Random Forest achieved slightly higher accuracy, XGBoost was selected as the final model due to its better recall on the churn class, which is more important for identifying customers at risk of leaving.
 
 ---
 
 ## Visualizations
 - Confusion Matrix
-  
-<img width="577" height="392" alt="image" src="https://github.com/user-attachments/assets/5080efad-f9db-40cb-97cf-90e870d130c8" />
+  <img width="563" height="735" alt="image" src="https://github.com/user-attachments/assets/a11c0132-8bfd-409b-b6be-6d3b2046e4dc" />
 
 - Churn Distribution
+  <img width="552" height="373" alt="image" src="https://github.com/user-attachments/assets/3db4595b-8740-4698-b2f8-59155c2a7d32" />
 
-<img width="616" height="446" alt="image" src="https://github.com/user-attachments/assets/e0993c0f-20ad-49ed-be33-b4a7dd269e20" />
-  
-- Feature Importance Analysis
-
-<img width="795" height="466" alt="image" src="https://github.com/user-attachments/assets/820a8f66-ca8e-41b8-a9a6-c58e27b707be" />
+- Feature Importance Analysis (Random Forest and XGBoost comparison)
+  <img width="705" height="787" alt="image" src="https://github.com/user-attachments/assets/c0b6b5b8-89aa-4cdf-b259-af0330871dd8" />
 
 ---
 
 ## Key Insights
-- Contract type is a strong predictor of churn
-- Month-to-month customers are more likely to leave
-- Higher monthly charges increase churn probability
-- Retention strategies should focus on high-risk segments
+- Contract type is the most influential factor in customer churn.
+- Month-to-month customers are significantly more likely to churn than long-term contract customers.
+- Higher monthly charges are associated with increased churn risk.
+- Customers with lower tenure are more likely to leave.
+- Online security and tech support services strongly reduce churn probability.
+- XGBoost focuses more on behavioral features, while Random Forest distributes importance across financial features as well.
 
 ---
 
@@ -100,17 +117,20 @@ The model performs better at identifying churned customers due to relatively hig
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- XGBoost
 
 ---
 
 ## How to Run
 1. Clone the repository
-2. Open the Customer_Churn in Jupyter or Google Colab
-3. Run all cells
-
-
+2. Open the notebook in Jupyter or Google Colab
+3. Run all cells sequentially
 
 ---
 
 ## Conclusion
-This project demonstrates how machine learning can be used to predict customer churn and support business decision-making. It helps identify customers at risk and enables proactive retention strategies.
+This project demonstrates how machine learning can be used to predict customer churn and support business decision-making.
+
+By analyzing customer behavior and service usage patterns, the models help identify customers at risk of leaving.
+
+Early detection of churn enables businesses to take proactive retention actions such as targeted offers, improved customer support, and personalized engagement strategies, ultimately improving customer retention and reducing revenue loss.
