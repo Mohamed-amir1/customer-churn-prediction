@@ -130,6 +130,12 @@ Although Random Forest achieved slightly higher accuracy, XGBoost was selected a
 3. Run all cells sequentially
 
 ---
+## Google Colab
+
+You can run this project directly on Google Colab without any local setup:
+
+[Open in Google Colab](https://colab.research.google.com/)
+---
 
 ## Conclusion
 This project demonstrates how machine learning can be used to predict customer churn and support business decision-making.
