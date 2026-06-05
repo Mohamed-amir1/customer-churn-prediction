@@ -91,12 +91,15 @@ Although Random Forest achieved slightly higher accuracy, XGBoost was selected a
 ## Visualizations
 - Confusion Matrix
   <img width="563" height="735" alt="image" src="https://github.com/user-attachments/assets/a11c0132-8bfd-409b-b6be-6d3b2046e4dc" />
+  
 
 - Churn Distribution
   <img width="552" height="373" alt="image" src="https://github.com/user-attachments/assets/3db4595b-8740-4698-b2f8-59155c2a7d32" />
+  
 
 - Feature Importance Analysis (Random Forest and XGBoost comparison)
   <img width="705" height="787" alt="image" src="https://github.com/user-attachments/assets/c0b6b5b8-89aa-4cdf-b259-af0330871dd8" />
+  
 
 ---
 
