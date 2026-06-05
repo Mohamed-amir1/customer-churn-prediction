@@ -133,8 +133,7 @@ Although Random Forest achieved slightly higher accuracy, XGBoost was selected a
 ## Google Colab
 
 You can run this project directly on Google Colab without any local setup:
-
-[[Open in Google Colab](https://colab.research.google.com/)](https://colab.research.google.com/drive/1MhDEHMH0LdtNAOJ4s8fSW6vtDnA9e1Cc?usp=sharing)
+(https://colab.research.google.com/drive/1MhDEHMH0LdtNAOJ4s8fSW6vtDnA9e1Cc?usp=sharing)
 ---
 
 ## Conclusion
