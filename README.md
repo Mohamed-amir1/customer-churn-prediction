@@ -93,7 +93,12 @@ Although Random Forest achieved slightly higher accuracy, XGBoost was selected a
 ## Explainability (SHAP Analysis - XGBoost)
 
 SHAP was applied to the XGBoost model to interpret predictions globally and locally.
-<img width="375" height="624" alt="Screenshot 2026-06-06 203253" src="https://github.com/user-attachments/assets/a6f9370e-9e45-43d7-a730-65830e5a97da" />
+
+<img width="748" height="770" alt="image" src="https://github.com/user-attachments/assets/08c65959-0a5d-43ec-8137-aa5bd021dbbc" />
+
+<img width="823" height="497" alt="image" src="https://github.com/user-attachments/assets/d0efdb09-6973-4aa2-8dd8-d7952599b55a" />
+
+
 
 
 ###  SHAP Insights:
