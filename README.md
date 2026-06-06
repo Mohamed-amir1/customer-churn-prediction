@@ -93,8 +93,10 @@ Although Random Forest achieved slightly higher accuracy, XGBoost was selected a
 ## Explainability (SHAP Analysis - XGBoost)
 
 SHAP was applied to the XGBoost model to interpret predictions globally and locally.
+<img width="375" height="624" alt="Screenshot 2026-06-06 203253" src="https://github.com/user-attachments/assets/a6f9370e-9e45-43d7-a730-65830e5a97da" />
 
-### Key SHAP Insights:
+
+###  SHAP Insights:
 - Contract type is the most influential feature in churn prediction.
 - Month-to-month contracts significantly increase churn probability.
 - Low tenure strongly increases churn risk.
