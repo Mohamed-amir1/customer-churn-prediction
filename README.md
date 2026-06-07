@@ -167,7 +167,7 @@ This demonstrates end-to-end machine learning workflow from data preprocessing a
 
 The project can be executed end-to-end using Google Colab for easy reproducibility:
 
-https://colab.research.google.com/drive/1MhDEHMH0LdtNAOJ4s8fSW6vtDnA9e1Cc?usp=sharing
+[https://colab.research.google.com/drive/11DhvhyGrornFFAQYWZkYMd2ydUqtMfZS?usp=sharing]
 
 ---
 
