@@ -111,22 +111,22 @@ SHAP (SHapley Additive Explanations) was used to interpret the XGBoost model.
 ## Visualizations
 
 ### 1. Churn Distribution
-images/churn_distribution.png
+![Churn Distribution](images/churn_distribution.png)
 
 ---
 
 ### 2. Confusion Matrix
-images/confusion_matrix.png
+![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
 ### 3. Feature Importance (XGBoost)
-images/feature_importance.png
+![Feature Importance](images/feature_importance.png)
 
 ---
 
 ### 4. SHAP Summary Plot
-images/shap_summary.png
+![SHAP Summary](images/shap_summary.png)
 
 ---
 
