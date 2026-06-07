@@ -188,7 +188,6 @@ https://colab.research.google.com/drive/1L7nJ9EpQhk3WlUdiQsEEcG9jbYsNH5Sy?usp=sh
 1. Clone the repository  
 2. Install dependencies from requirements.txt  
 3. Run Jupyter Notebook or Colab  
-4. Run Streamlit app using:
 
 ---
 
