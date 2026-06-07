@@ -59,7 +59,7 @@ The dataset contains customer information such as:
 - colsample_bytree = 0.9  
 - scale_pos_weight applied for class imbalance  
 
-XGBoost was selected as the final model due to better performance balance and stronger ability to capture feature interactions.
+
 
 ---
 
