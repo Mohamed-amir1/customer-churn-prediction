@@ -158,7 +158,7 @@ A Streamlit web application was developed to deploy the trained XGBoost model an
 The application allows users to input customer information and instantly predict churn probability.
 
 Live Demo:  
-https://your-streamlit-app-link
+(https://customer-churn-prediction-jsdut4x9j6xdkwhawpszst.streamlit.app/)
 
 This demonstrates end-to-end machine learning workflow from data preprocessing and model training to production deployment.
 
